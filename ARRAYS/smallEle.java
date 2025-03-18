@@ -10,7 +10,7 @@ class smallEle
         int min = ar[0];
         for (int i = 1; i < ar.length; i++)
         {
-            if (ar[i] < min)
+            if (ar[i] < min) //for largest ele ar[i]>max
             {
                 min = ar[i];
             }
